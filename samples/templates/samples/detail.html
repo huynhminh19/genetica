@@ -1,0 +1,13 @@
+<h1>{{ sample.customer }}</h1>
+<h2>{{ sample.status }}</h2>
+{% if sample.retry > 0 %}
+    (thất bại lần {{ sample.retry }})
+{% endif %}
+{% if sample.status.id != 'end' and sample.status.id in list_permission %}
+<form action="{% url 'samples:update_status' sample.id %}" method="post">
+  {% csrf_token %}
+  <input type="hidden" name="sample" value="{{ sample }}" />
+  <input type="submit" name="success" value="Thành công" />
+  <input type="submit" name="failure" value="Thất bại" />
+</form>
+{% endif %}
