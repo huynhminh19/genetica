@@ -10,16 +10,16 @@ Status table:
 
 ```
  CODE  NAME
-	aMySe	Phòng lab ở Mỹ gửi lại kết quả giải mã gen
-	9MyDe	Phòng lab ở Mỹ thực hiện việc giải mã gen
-	8MyAc	Phòng lab ở Mỹ thực hiện tách chiết DNA
-	7GeDe	Genetica gửi gói hàng cho đơn vị vận chuyển
-	6GeEn	Genetica đóng gói các mẫu DNA vào thành 1 gói
-	5Deli	Đơn vị vận chuyển gửi gói hàng sang phòng lab ở Mỹ
-	4HNSe	Phòng lab Hà Nội gửi lại DNA đã được tách chiết về Genetica
-	3HNRe	Phòng lab ở Hà Nội thực hiện việc kiểm định mẫu nước bọt
-	2GeSe	Genetica gửi bộ thu mẫu đến phòng lab ở Hà Nội
-	1GeRe	Genetica nhận được bộ thu mẫu từ phía khách hàng
+ aMySe	Phòng lab ở Mỹ gửi lại kết quả giải mã gen
+ 9MyDe	Phòng lab ở Mỹ thực hiện việc giải mã gen
+ 8MyAc	Phòng lab ở Mỹ thực hiện tách chiết DNA
+ 7GeDe	Genetica gửi gói hàng cho đơn vị vận chuyển
+ 6GeEn	Genetica đóng gói các mẫu DNA vào thành 1 gói
+ 5Deli	Đơn vị vận chuyển gửi gói hàng sang phòng lab ở Mỹ
+ 4HNSe	Phòng lab Hà Nội gửi lại DNA đã được tách chiết về Genetica
+ 3HNRe	Phòng lab ở Hà Nội thực hiện việc kiểm định mẫu nước bọt
+ 2GeSe	Genetica gửi bộ thu mẫu đến phòng lab ở Hà Nội
+ 1GeRe	Genetica nhận được bộ thu mẫu từ phía khách hàng
 ```
 
 Login:
