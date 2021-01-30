@@ -5,7 +5,7 @@
 -- Dumped from database version 13.1
 -- Dumped by pg_dump version 13.1
 
--- Started on 2021-01-30 18:09:24
+-- Started on 2021-01-30 18:57:53
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -864,11 +864,11 @@ COPY public.auth_permission (id, name, content_type_id, codename) FROM stdin;
 --
 
 COPY public.auth_user (id, password, last_login, is_superuser, username, first_name, last_name, email, is_staff, is_active, date_joined) FROM stdin;
-2	pbkdf2_sha256$216000$UBFrIeUt3rXt$xhMbeqfo9Vi0EKgEhkwfyeFd+/O3+2f87/jcnYNJ6ys=	2021-01-30 16:21:35.075212+07	f	genetica				t	t	2021-01-30 16:06:33+07
 1	pbkdf2_sha256$216000$R3RasepHFzVZ$AUXQcxKovKUBKMYyWqrtlRIoPuTPG0b5cBovnJdW6CQ=	2021-01-30 16:29:59.835909+07	t	admin			admin@genetica.com	t	t	2021-01-29 16:05:50.664218+07
 5	pbkdf2_sha256$216000$ybXhuGIkukui$f3iNWEvpFT3UHjCopFVE8fJvKW8i6Cp1C8G8ehq1q4I=	\N	f	my				t	t	2021-01-30 16:07:19+07
 4	pbkdf2_sha256$216000$oEBVsLTvcHoP$zJKF3VsM5WS20yJRouoq07EEPMQCaod94SJzyIcES9U=	\N	f	vanchuyen				t	t	2021-01-30 16:07:03+07
 3	pbkdf2_sha256$216000$GregazdqqDY4$TPo52ICySppqL3vLjWlTQh8I/qYJ2Pxw8IARYpIr/YI=	2021-01-30 16:30:38.728768+07	f	hanoi				t	t	2021-01-30 16:06:52+07
+2	pbkdf2_sha256$216000$UBFrIeUt3rXt$xhMbeqfo9Vi0EKgEhkwfyeFd+/O3+2f87/jcnYNJ6ys=	2021-01-30 18:55:07.625374+07	f	genetica				t	t	2021-01-30 16:06:33+07
 \.
 
 
@@ -986,6 +986,15 @@ COPY public.django_admin_log (id, action_time, object_id, object_repr, action_fl
 81	2021-01-30 16:34:05.471879+07	3	SampleStatusHistory object (3)	3		12	3
 82	2021-01-30 16:34:05.471879+07	2	SampleStatusHistory object (2)	3		12	3
 83	2021-01-30 16:34:05.475871+07	1	SampleStatusHistory object (1)	3		12	3
+84	2021-01-30 18:55:25.428063+07	4	C	1	[{"added": {}}]	11	2
+85	2021-01-30 18:55:30.004302+07	5	D	1	[{"added": {}}]	11	2
+86	2021-01-30 18:55:34.153995+07	6	E	1	[{"added": {}}]	11	2
+87	2021-01-30 18:55:38.686817+07	7	F	1	[{"added": {}}]	11	2
+88	2021-01-30 18:55:44.816351+07	8	G	1	[{"added": {}}]	11	2
+89	2021-01-30 18:55:49.949427+07	9	H	1	[{"added": {}}]	11	2
+90	2021-01-30 18:55:54.669298+07	10	J	1	[{"added": {}}]	11	2
+91	2021-01-30 18:56:02.681953+07	11	K	1	[{"added": {}}]	11	2
+92	2021-01-30 18:56:09.165741+07	12	L	1	[{"added": {}}]	11	2
 \.
 
 
@@ -1053,7 +1062,7 @@ COPY public.django_migrations (id, app, name, applied) FROM stdin;
 
 COPY public.django_session (session_key, session_data, expire_date) FROM stdin;
 tioood9ewgsq0h5veyodh7h89d8fm8t1	.eJxVjDsOwjAQBe_iGlle_01Jzxms9WdxADlSnFSIu0OkFNC-mXkvFnFbW9xGXeJU2JkBO_1uCfOj9h2UO_bbzPPc12VKfFf4QQe_zqU-L4f7d9BwtG-tsvdaQwESgqQLThAkMgY8SQVBW2uVMRUlKZkKYc2GrPIukdMh2MLeH8CtN1o:1l5lYk:d_aSErRYfnC6w4gWTorexmO6qKupg6YVuSaraLo6Auo	2021-02-13 15:24:46.839671+07
-ivpdu5oh00jwlq4pmz5lc67pfw9i7x5i	.eJxVjEEOgkAMRe8yazNhZii0Lt17hklpi6AGEgZWxrsrCQvd_vfef7nM2zrkrdiSR3Vnl9zpd-tYHjbtQO883WYv87QuY-d3xR-0-Ous9rwc7t_BwGX41kERKVQCPSHE2CawGtCgYetb6CL32jZoGBQq0oQVYB2lURIJpATu_QHGzTdB:1l5maU:H4ZytnN9IKN1uVlZcbj-qXAGZtUP5vjpQ5k1lB1Ai_Y	2021-02-13 16:30:38.732803+07
+lclijgj8b3m5xsl3vasp2thh3wk96czm	.eJxVjEEOwiAQAP_C2RALuIBH730DYdlFqgaS0p6MfzckPeh1ZjJvEeK-lbB3XsNC4iqUOP0yjOnJdQh6xHpvMrW6rQvKkcjDdjk34tftaP8GJfYytoyE3hpyZMEyT-gUZZ89Th50ZuW0tXDW2SkADxkvZGJ0YDglr5UWny_17DgC:1l5oqJ:sC7ViSXORbI_4jhFHjUA2AoN2tXKuKampj319Kl-Cm0	2021-02-13 18:55:07.627368+07
 \.
 
 
@@ -1066,6 +1075,15 @@ ivpdu5oh00jwlq4pmz5lc67pfw9i7x5i	.eJxVjEEOgkAMRe8yazNhZii0Lt17hklpi6AGEgZWxrsrCQ
 COPY public.samples (id, customer, retry, status_id) FROM stdin;
 2	A	0	end
 3	B	1	4HNSe
+4	C	0	1GeRe
+5	D	0	2GeSe
+6	E	0	3HNRe
+7	F	0	4HNSe
+8	G	0	5Deli
+9	H	0	6GeEn
+10	J	0	7GeDe
+11	K	0	8MyAc
+12	L	0	9MyDe
 \.
 
 
@@ -1168,7 +1186,7 @@ SELECT pg_catalog.setval('public.auth_user_user_permissions_id_seq', 1, false);
 -- Name: django_admin_log_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.django_admin_log_id_seq', 83, true);
+SELECT pg_catalog.setval('public.django_admin_log_id_seq', 92, true);
 
 
 --
@@ -1195,7 +1213,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 26, true);
 -- Name: samples_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.samples_id_seq', 3, true);
+SELECT pg_catalog.setval('public.samples_id_seq', 12, true);
 
 
 --
@@ -1664,7 +1682,7 @@ ALTER TABLE ONLY public.samples
     ADD CONSTRAINT samples_status_id_8d7d0a0e_fk FOREIGN KEY (status_id) REFERENCES public.samples_status(id) DEFERRABLE INITIALLY DEFERRED;
 
 
--- Completed on 2021-01-30 18:09:25
+-- Completed on 2021-01-30 18:57:54
 
 --
 -- PostgreSQL database dump complete
